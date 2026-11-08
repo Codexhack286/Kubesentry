@@ -1,0 +1,22 @@
+# Compiled binaries (Do NOT commit these!)
+kubesentry
+*.exe
+*.test
+*.out
+
+# IDE and Editor settings
+.idea/
+.vscode/
+*.swp
+*~
+
+# Operating system files
+.DS_Store
+
+# Safety: Never commit local kubeconfig or TLS keys
+*.kubeconfig
+kubeconfig
+*.key
+*.pem
+*.crt
+.env
